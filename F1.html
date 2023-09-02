@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration </title>
+</head>
+<body style="background-color: lightskyblue;">
+    <center>
+    <h4> Student Registration Form</h4>
+    <form style="background-color: white; height:990px; width: 90%;"> 
+        <br>
+      <table border="0" cellspacing="5" cellpadding="9"> 
+         <tr> 
+              <td>First Name:</td>
+              <td> <input type="text" required placeholder="Enter your first name" size="50" style="height: 35px;">   </td>
+         </tr>
+         <tr>
+            <td> Last Name:</td>
+            <td> <input type="text" required placeholder="Enter your last name" size="50" style="height: 35px;"> </td>
+         </tr>
+         <tr> 
+            <td> Email:</td>
+            <td> <input type="email" required placeholder="it should contain @" size="50" style="height: 35px;"></td>
+         </tr>
+         <tr> 
+            <td> Mobile:</td>
+            <td> <input type="number" required maxlength="10" minlength="9" placeholder="only 10 digits are allowed" style="height: 35px; width: 97%;"></td>
+         </tr>
+         <tr>
+            <td> Gender:</td>
+            <td> <input type="radio" name="XYZ"> Male 
+                <input type="radio" name="XYZ"> Female
+            </td>
+         </tr>
+         <tr> 
+            <td> Date Of Birth:</td>
+            <td> <input type="datetime-local" style="height: 35px; width: 97%;"></td>
+         </tr>
+         <tr>
+            <td> Address: </td>
+            <td> <input type="text" required style="height:100px; width:97%;"> </td>
+         </tr>
+         <tr>
+            <td> City:</td>
+            <td> <input type="text" required style="height: 35px; width: 97%;"></td>
+         </tr>
+         <tr>
+            <td> Area PIN:</td>
+            <td> <input type="number" required style="height: 35px; width: 97%;"> </td>
+         </tr>
+         <tr> 
+            <td> State: </td>
+            <td> <input type="text" readonly style="height: 35px; width: 97%;"></td>
+         </tr>
+         <tr>
+            <td> Qualification: </td>
+            <td> <select style="height: 35px;">
+                <option> Select Qualification</option>
+                <option>10th Pass </option>
+                <option> 12th Pass</option>
+                <option> Diploma In Computer Engineering</option>
+                <option> B.A </option>
+                <option> B.Com</option>
+            </select></td>
+         </tr>
+         <tr>
+            <td> Specialization:</td>
+            <td> <input type="checkbox"> Computer Science<br>
+                 <input type="checkbox"> Information Technology<br>
+                 <input type="checkbox"> Tele Communication</td>
+         </tr>
+         <tr>
+            <td> Password: </td>
+            <td> <input type="password" required maxlength="5" minlength="4" style="height: 35px; width: 97%;"></td>
+         </tr>
+    
+        <tr>
+            <td> 
+                <input type="submit" value="Registered" style="background-color: green; color: white; height: 40px; width:100%; border: none; border-radius: 5px 5px 5px 5px;"></td>
+        </tr>
+    
+    </table>
+    </form>
+</center>
+</body>
+</html>
